@@ -1,2 +1,3 @@
-# Rentafondue.com
-Rentafondue.com Website
+# Rentafondue
+Website_Rentafondue
+Live! 01.09.2026
