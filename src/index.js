@@ -3,9 +3,6 @@ export default {
 
     const url = new URL(request.url);
 
-    // -----------------------------------------
-    // COUNTRY API
-    // -----------------------------------------
     if (url.pathname === "/api/country") {
 
       const country = request.cf?.country || "UNKNOWN";
@@ -23,9 +20,6 @@ export default {
       );
     }
 
-    // -----------------------------------------
-    // WEBSITE AUS /public AUSLIEFERN
-    // -----------------------------------------
     return env.ASSETS.fetch(request);
   }
 };
