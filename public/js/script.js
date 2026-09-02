@@ -1,17 +1,3 @@
-from pathlib import Path
-
-js = r'''/* =========================================================
-   RentaFondue.com
-   Main JavaScript
-   File: public/js/script.js
-========================================================= */
-
-document.addEventListener("DOMContentLoaded", () => {
-  initCurrentYear();
-  initCountryDetection();
-  initContactForm();
-});
-
 
 /* =========================================================
    CURRENT YEAR
